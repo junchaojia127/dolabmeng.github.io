@@ -1,0 +1,128 @@
+.box_hd {
+    height: 50px;
+    padding: 0 20px;
+    line-height: 50px;
+}
+
+.box_hd h3 {
+    float: left;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 50px;
+}
+
+.tab_list {
+    float: right;
+    line-height: 50px;
+}
+
+.tab_list ul li {
+    float: left;
+}
+
+.tab_list ul li a {
+    margin: 0 15px;
+}
+
+.floor {
+    margin-bottom: 100px;
+}
+
+.floor .w {
+    margin-top: 10px;
+    margin-bottom: 40px;
+    background-color: #ffffff;
+    opacity: .8;
+}
+
+.box_bd {
+    height: 379px;
+    padding: 0 20px 20px 20px;
+}
+
+.tab_list_item>div {
+    float: left;
+    height: 341px;
+}
+
+.col_210 {
+    width: 210px;
+    background-color: #f9f9f9;
+    text-align: center;
+    padding-left: 12px;
+}
+
+.col_210 ul li {
+    float: left;
+    width: 85px;
+    height: 34px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    line-height: 34px;
+    font-size: 13px;
+    color: #999999;
+    margin-right: 10px;
+}
+
+.col_310 {
+    width: 310px;
+}
+
+.col_221 {
+    width: 221px;
+    border-right: 1px solid #ccc;
+}
+
+.col_198 {
+    width: 198px;
+}
+
+
+.bod-bot {
+    /* 一般情况下，a如果包含有宽度的盒子，a需要转换为块级元素 */
+    display: block;
+    border-bottom: 1px solid #ccc;
+}
+
+.new_body {
+    float: left;
+}
+
+.news .new_body ul .web_site {
+    position: relative;
+    margin-bottom: 31px;
+}
+
+.news .new_body ul .web_site .triangle {
+    width: 0;
+    height: 0;
+    border: 8px solid transparent;
+    border-left-color: #46a7ce;
+    position: absolute;
+    left: 0px;
+    top: 8px;
+}
+
+.new_body {
+    padding: 5px 15px 0;
+    font-size: 14px;
+}
+
+.new_body ul li {
+    height: 32px;
+    line-height: 32px;
+    padding-left: 12px;
+    /* 下面三步溢出显示为省略号 */
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 18px;
+}
+
+.new_body ul li a {
+    color: #050505;
+}
+
+.new_body ul li a:hover {
+    color: #46a7ce;
+}

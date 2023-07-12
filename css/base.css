@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* css3盒子模型 */
+    box-sizing: border-box;
+}
+
+/* html,body,ul,li,ol,dl,dd,dt,p,h1,h2,h3,h4,h5,h6,form,fieldset,legend,img{margin: 0;padding: 0;} */
+
+/* 这个类名使得指定的内容始终位于版心 */
+.w {
+    width: 1200px;
+    margin: auto;
+}
+
+body {
+    background: url('../upload/sky.jpg') no-repeat fixed center;
+}
+
+/* 清除浮动 */
+.clear {
+    clear: both;
+}
+
+a {
+    text-decoration: none;
+    color: #050505;
+}
+
+li {
+    list-style: none;
+}
+
+.style_blue {
+    color: #1387f4;
+}
+
+.style_touch_pink:hover {
+    color: #eda1bd;
+}
+
+.style_white {
+    width: 100%;
+    background-color: #ffffff;
+}
